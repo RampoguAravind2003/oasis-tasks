@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>MenAccessories - Home</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body >
+    <div class="ball"></div>
+    <section>
+        <header>
+            <a href="#"><img src="https://static.vecteezy.com/system/resources/thumbnails/003/064/633/small/tuxedo-man-logo-and-symbols-template-free-vector.jpg" alt="Image description" width="180" height="120"></a>
+            <ul>
+                <li><a href="#Categories">Categories</a></li>
+                <li><a href="Contact">Contact</a></li>
+                <li><a href="FAQ">FAQ</a></li>
+            </ul>
+        </header>
+        <div class="container">
+            <div class="content">
+                <h1>Shop <span>Men Accessories</span></h1>
+                <h2>Order awesome accessories</h2>
+                <p>Welcome to our Mens Accessories Website, the ultimate destination for all your fashion needs! Discover a world of trendy and stylish accessories designed exclusively for men who want to express their unique style and enhance their outfits.</p>
+                <a href="#">Order Now</a>
+            </div>
+            <div class="products">
+                <img src="https://assets.myntassets.com/dpr_1.5,q_60,w_400,c_limit,fl_progressive/assets/images/13036796/2021/1/6/bb6d18c9-39c1-4632-bc4a-f452606965ef1609906124788-WROGN-Men-Silver-Toned-Analogue-Watch-WRG00048A-802160990612-1.jpg" alt="Image description" width="350" height="300" class="Accessories">
+            </div>
+            <ul class="Click">
+                <li><img src="https://www.urbanmonkey.com/cdn/shop/files/super-suede-teal-02.jpg?v=1693807209" alt="Image description" width="60" height="60" onclick="imgSlider('https://www.urbanmonkey.com/cdn/shop/files/super-suede-teal-02.jpg?v=1693807209');changeColor('#e7b6ab')"></li>
+                <li><img src="https://assets.ajio.com/medias/sys_master/root/20230717/yvfX/64b526ceeebac147fc71e5f5/-473Wx593H-465325634-green-MODEL.jpg" alt="Image description" width="60" height="60" onclick="imgSlider('https://assets.ajio.com/medias/sys_master/root/20230717/yvfX/64b526ceeebac147fc71e5f5/-473Wx593H-465325634-green-MODEL.jpg');changeColor('#da7189')"></li>
+                <li><img src="https://images.meesho.com/images/products/254504922/r0x9c_256.webp" alt="Image description" width="60" height="60" onclick="imgSlider('https://images.meesho.com/images/products/254504922/r0x9c_256.webp');changeColor('#e8d890')"></li>
+            </ul>
+        </div>
+    </section>
+
+    <script type="text/javascript">
+        function imgSlider(anything) {
+            document.querySelector('.Accessories').src = anything;
+        }
+        function changeColor(color) {
+            const ball = document.querySelector('.ball');
+            ball.style.backgroundColor = color;
+        }
+    </script>
+
+    <section id="jewelry-section">
+        <div class="ball"></div>
+        <div class="container">
+            <div class="content">
+                <h1>Shop <span>Watches</span></h1>
+                <h2>Discover stunning Watch collection</h2>
+                <p>Explore a wide range of elegant and stylish watches to enhance your appearance:</p>
+                <a href="#">Shop Now</a>
+            </div>
+            <div class="products">
+                <img src="https://rukminim1.flixcart.com/image/450/500/xif0q/watch/v/w/o/-original-imagta7uyupbfzsf.jpeg?q=90&crop=false" alt="Jewelry Image" width="300" height="250" class="Accessories">
+            </div>
+            <ul class="Click">
+                <li><img src="https://www.thejewelleryeditor.com/media/images_thumbnails/filer_public_thumbnails/filer_public/0c/f7/0cf7b40d-2a7e-4353-a851-a63595e19c62/bulgari-octo-tuttonero-solotempo-watch-black.jpg__1536x0_q75_crop-scale_subsampling-2_upscale-false.jpg" width="60" height="60" onclick="imgSliderJewelry('https://www.thejewelleryeditor.com/media/images_thumbnails/filer_public_thumbnails/filer_public/0c/f7/0cf7b40d-2a7e-4353-a851-a63595e19c62/bulgari-octo-tuttonero-solotempo-watch-black.jpg__1536x0_q75_crop-scale_subsampling-2_upscale-false.jpg');changeColor('#da7189')"></li>
+                <li><img src="https://images.unsplash.com/photo-1524738258074-f8125c6a7588?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fG1lbiUyMHdhdGNoZXN8ZW58MHx8MHx8fDA%3D" width="60" height="60" onclick="imgSliderJewelry('https://images.unsplash.com/photo-1524738258074-f8125c6a7588?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fG1lbiUyMHdhdGNoZXN8ZW58MHx8MHx8fDA%3D');changeColor('#da7189')"></li>
+                <li><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQ3ScXvczvg6LWipdJNIwlmqqG1yqVa9DQfw&usqp=CAU" width="60" height="60" onclick="imgSliderJewelry('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQ3ScXvczvg6LWipdJNIwlmqqG1yqVa9DQfw&usqp=CAU');changeColor( '#e8d890')"></li>
+            </ul>
+        </div>
+    </section>
+
+    <script type="text/javascript">
+        function imgSliderJewelry(anything) {
+            document.querySelector('#jewelry-section .Accessories').src = anything;
+        }
+        function changeColor(color) {
+            const ball = document.querySelector('.ball');
+            ball.style.backgroundColor = color;
+        }
+    </script>
+
+    <section id="hair-accessories">
+        <div class="ball"></div>
+        <div class="container">
+            <div class="content">
+                <h1>Shop <span>wallets</span></h1>
+                <h2>Discover trendy Wallets</h2>
+                <p>Explore a wide range of stylish and fashionable wallets :</p>
+                <a href="#">Shop Now</a>
+            </div>
+            <div class="products">
+                <img src="https://5.imimg.com/data5/OF/GH/MY-7610375/handmade-men-s-short-leather-wallet-500x500.jpg" alt="Hair Accessories Image" width="300" height="250" class="Accessories">
+            </div>
+            <ul class="Click">
+                <li><img src="https://www.modernquests.com/cdn/shop/files/bellroy-hide-and-seek-wallet-ranger-green-rfid-1_800x.jpg?v=1690051514" width="60" height="60" onclick="imgSliderHair('https://www.modernquests.com/cdn/shop/files/bellroy-hide-and-seek-wallet-ranger-green-rfid-1_800x.jpg?v=1690051514');changeColor('#e7b6ab')"></li>
+                <li><img src="https://www.shutterstock.com/image-photo/set-hand-made-leather-man-260nw-1048895162.jpg" width="60" height="60" onclick="imgSliderHair('https://www.shutterstock.com/image-photo/set-hand-made-leather-man-260nw-1048895162.jpg');changeColor('#da7189')"></li>
+                <li><img src="https://www.thewalletstore.in/cdn/shop/products/61fb9c75a2937.jpg?v=1671619664&width=1200" width="60" height="60" onclick="imgSliderHair('https://www.thewalletstore.in/cdn/shop/products/61fb9c75a2937.jpg?v=1671619664&width=1200');changeColor('#e8d890')"></li>
+            </ul>
+        </div>
+    </section>
+
+    <script type="text/javascript">
+        function imgSliderHair(anything) {
+            document.querySelector('#hair-accessories .Accessories').src = anything;
+           
+        }
+        function changeColor(color) {
+            const ball = document.querySelector('.ball');
+            ball.style.backgroundColor = color;
+        }
+    </script>
+    <section id="reviews-section">
+        <div class="container">
+            <h1>Customer Reviews</h1>
+            <div class="review">
+                <img src="/Users/blessykancharla/Desktop/picss/r.png" alt="Customer Review" width="70" height="70">
+                <p>"The accessories are amazing! They perfectly complement my outfits. Highly recommend!"</p>
+                <h3>John Doe</h3>
+            </div>
+            <div class="review">
+                <img src="/Users/blessykancharla/Desktop/picss/r.png" alt="Customer Review" width="70" height="70">
+                <p>"I'm in love with the Accessory collection. Exquisite designs and great quality."</p>
+                <h3>Jane Smith</h3>
+            </div>
+            <div class="review">
+                <img src="/Users/blessykancharla/Desktop/picss/r.png" alt="Customer Review" width="70" height="70">
+                <p>"The watches are my favorite! ."</p>
+                <h3>Johnson</h3>
+            </div>
+        </div>
+    </section>
+    <section id="contact">
+        <div class="container">
+            <h1>Contact info</h1>
+            <div class="contact-info">
+                <img src="/Users/blessykancharla/Desktop/picss/insta.jpeg" alt="Customer Review" width="70" height="70">
+                <h3>Instagram</h3>
+                <p>@men_accessories12</p>
+            </div>
+            <div class="contact-info">
+                <img src="/Users/blessykancharla/Desktop/picss/mail.png" alt="Customer Review" width="70" height="70">
+                <h3>Email</h3>
+                <p>menaccessories121@gmail.com</p>
+            </div>
+            <div class="contact-info">
+                <img src="/Users/blessykancharla/Desktop/picss/phone.png" alt="Customer Review" width="70" height="70">
+                <h3>Phone Number</h3>
+                <p>+91 12345123098</p>
+            </div>
+        </div>
+    </section>
+   
+    
+    
+</body>
+</html>
